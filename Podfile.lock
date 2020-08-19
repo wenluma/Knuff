@@ -1,4 +1,7 @@
 PODS:
+  - Fragaria (1.0.1):
+    - Fragaria/unicode (= 1.0.1)
+  - Fragaria/unicode (1.0.1)
   - KVOController (1.2.0)
   - Mantle (2.1.0):
     - Mantle/extobjc (= 2.1.0)
@@ -6,6 +9,7 @@ PODS:
   - pop (1.0.12)
 
 DEPENDENCIES:
+  - Fragaria (from `./Local/Fragaria/Fragaria.podspec.json`)
   - KVOController
   - Mantle
   - pop
@@ -16,11 +20,16 @@ SPEC REPOS:
     - Mantle
     - pop
 
+EXTERNAL SOURCES:
+  Fragaria:
+    :path: "./Local/Fragaria/Fragaria.podspec.json"
+
 SPEC CHECKSUMS:
+  Fragaria: ec05aacd9ee43100da117cef4b55a6f7219dd14e
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
 
-PODFILE CHECKSUM: 8731ce61d15228ee004ec467b2a2051a2ae24aa5
+PODFILE CHECKSUM: 87e37a33a22c8e9bec361f79ebaff7664c94dde9
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1
